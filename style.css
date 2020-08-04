@@ -72,26 +72,6 @@
     ;
 }
 
-.circle {
-    display: inline-block;
-    opacity: 0.5;
-    color: #1d3954;
-}
-
-.circle1 {
-    display: inline-block;
-    color: #432b87;
-    margin: 0;
-    margin-bottom: 15px;
-}
-
-.circle2 {
-    display: inline-block;
-    margin: 0;
-    opacity: 0.5;
-    color: #1d3954;
-}
-
 .people {
     background-color: #432b87;
     border-radius: 50px;
@@ -100,9 +80,49 @@
     position: absolute;
 }
 
+a {
+    text-decoration: none;
+}
+
+.control-testimoni {
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    margin-right: 0;
+    margin-left: 0;
+    width: 99%;
+}
+
+.control-testimoni a {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: #757575;
+}
+
+.control-testimoni a.active {
+    background: #1d3954;
+    opacity: 0.5
+}
+
+.control-testimoni a.active1 {
+    background: #432b87;
+}
+
+.control-testimoni a.active2 {
+    background: #1d3954;
+    opacity: 0.5;
+}
+
 .new {
     padding-top: 8rem;
-    padding-bottom: 7rem;
+    padding-bottom: 10rem;
 }
 
 .hr1 {
@@ -138,17 +158,17 @@
 
 .app {
     padding: 20px;
-    height: 280px;
+    height: 350px;
     background-color: #fafafa;
 }
 
 .download-app {
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 
 .button2 {
-    margin-top: 8rem;
-    margin-left: 14rem;
+    margin-top: 6rem;
+    margin-left: 11rem;
 }
 
 .button3 {
